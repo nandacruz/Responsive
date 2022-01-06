@@ -1,0 +1,95 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #5089C6;
+    color: rgb(228, 225, 225);
+   
+}
+
+header,section,aside,footer{
+    background-color: #035397;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #035397;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+ul{
+    list-style: none;
+    margin: 10px;
+}
+
+li{
+    display: inline;   
+    background-color: #ffff;
+    margin: 5px;
+    padding: 5px;
+}
+
+article{    
+    background-color: #001E6C;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.flex-container{
+    display: flex; 
+    justify-content:left ;   
+    flex-wrap: wrap;
+}
+
+
+
+.content-section{
+    
+    max-width: 32vw;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.content-aside{
+    max-width: 18vw;
+    border: 10px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.title{
+    margin-left: 10px;
+}
+
+.content-section, .content-aside, .text{
+   text-align: justify;
+}
+
+.text{   
+
+    max-width: 30vw;
+    min-height: 100px;
+    
+    padding: 10px; /*Espaçamento interno("área de clique")*/
+    margin: 10px; /*Espaçamento externo*/
+    
+}
+
+p{
+    text-indent: 1.5em; /*Espaçamento na primeira linha do parágrafo*/
+    line-height: 25px; /*Espaçamento entre linhas*/
+}
