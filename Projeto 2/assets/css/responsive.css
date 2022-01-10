@@ -1,0 +1,40 @@
+@media (min-width: 1px)and
+(max-width: 1230px){
+
+    .content-aside{
+       background-color: yellowgreen; 
+      
+    }
+
+    article{
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media(min-width: 1231px)and
+(max-width: 1241px){
+
+    .content-aside{
+       min-width: 39.9vw;    
+    }
+
+    article{
+        width: 100%;
+    }
+
+}
+
+
+
+@media(min-width: 1242px) {
+
+    .content-aside{
+        min-width: 6vw;       
+    }
+
+}
+

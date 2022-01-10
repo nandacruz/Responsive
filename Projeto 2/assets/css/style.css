@@ -32,7 +32,7 @@ header{
 
 .header-article{
     min-height: 70px;
-    max-width: 200px;
+   
 }
 
 
@@ -60,9 +60,14 @@ footer{
 }
 
 div{
-    
+    padding: 10px;
     border-color: rgb(236, 238, 111);
+    
 
+}
+
+.spacing{
+    min-height: 300px;
 }
 
 .flex-container{
@@ -73,7 +78,14 @@ div{
 
 aside{
     border-color: rgb(54, 189, 189);
-    max-width: 300px;
+    
 
+}
+
+.content-aside{
+    max-width: 6.5vw;
+    border: 10px;
+    min-height: 100px;
+    padding: 10px;
 }
 
