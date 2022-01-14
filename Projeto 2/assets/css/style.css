@@ -7,13 +7,14 @@ body{
 
     background-color: #040303;
     color: rgb(228, 225, 225);
+    
 
 }
 
 header, nav, article, footer,section, div,aside{
 
     background-color: #191919;
-    border-radius: 5px;
+    border-radius: 5px;    
     padding: 10px;
     margin: 10px;
     border-width: 1px;
@@ -24,15 +25,12 @@ header, nav, article, footer,section, div,aside{
 
 header{
     border-color: rgb(33, 211, 33);
+    
 }
 
 .header-body{
     min-height: 100px;
-}
-
-.header-article{
-    min-height: 70px;
-   
+    
 }
 
 
@@ -44,12 +42,13 @@ nav{
 
 article{
     border-color: blue;
-    width: 70%;
-
+    
 }
 
+
+
 section{
-    border-color: palevioletred;
+    border-color: rgb(112, 216, 199);
     min-height: 60px;
 
 }
@@ -60,7 +59,7 @@ footer{
 }
 
 div{
-    padding: 10px;
+  
     border-color: rgb(236, 238, 111);
     
 
@@ -68,11 +67,14 @@ div{
 
 .spacing{
     min-height: 300px;
+    min-width: 63vw;
 }
 
 .flex-container{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+   
 
 }
 
@@ -89,3 +91,9 @@ aside{
     padding: 10px;
 }
 
+.header-article{
+   
+    min-height: 70px;
+    
+   
+}
