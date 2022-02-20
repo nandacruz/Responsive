@@ -1,0 +1,77 @@
+*{
+    font-family: 'Shizuru', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+body{
+    width: 100%;
+    min-width: 350px;
+    color: #EEEEEE;
+    background-color: #090910;
+    padding: 10px;
+    
+}
+
+header{
+   
+    min-height: 500px;
+   
+}
+
+header,div,nav,section,article,aside,footer{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 2px 2px;
+    padding: 10px;
+    margin: 8px;
+}
+
+header,section,footer{
+    border-color:#4C0070;
+    background: linear-gradient(rgba(158, 110, 236, 0.2),rgba(226, 180, 253, 0.2)100%);
+}
+
+nav{
+    border-color:#11927d;
+    background: linear-gradient(rgba(110, 236, 225, 0.2),rgba(105, 233, 226, 0.2)100%);
+}
+
+aside{
+    border-color:#11927d;
+    background: linear-gradient(rgba(110, 236, 225, 0.2),rgba(105, 233, 226, 0.2)100%);
+
+}
+
+
+div,article{
+    border-color:#666368;
+    background: linear-gradient(rgba(161, 161, 161, 0.2),rgba(169, 167, 170, 0.2)100%);
+
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+div:nth-child(3){
+    min-height: 300px;
+}
+
+div:nth-child(4){
+    min-height: 100px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-content: space-between;
+}
+
+article{
+   width: 100%;
+}
